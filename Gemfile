@@ -32,11 +32,13 @@ group :development, :test do
   gem 'quiet_assets'
   gem 'rspec-rails'
   gem 'spring-commands-rspec'
+  gem 'site_prism'
 end
 
 group :test do
   gem 'shoulda-matchers'
   gem 'simplecov'
+  # gem 'site_prism'
 end
 
 group :development do
